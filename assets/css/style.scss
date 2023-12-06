@@ -1,0 +1,20 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+$background-color: #121212;
+$headline-color: #3e50b4;
+$primary-text-color: #ffffffff;
+$secondary-text-color: #ffffffb3;
+$disabled-text-color: #ffffff80;
+
+body { background: $background-color 0 0; color: $primary-text-color; }
+
+header { border-bottom: 1px dashed $headline-color; }
+header h1 { color: $headline-color; text-shadow: 0 0 black; }
+header h1:before { content: none; font-size: none; }
+
+h1, h2, h3, h4, h5, h6 { color: $headline-color; text-shadow: none; }
+
+a { color: $primary-text-color; text-shadow: none; }
